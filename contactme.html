@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>Contact Me</h3>
+    <hr>
+    <ul>
+      <li>jennifersridr@outlook.com</li>
+      <li>phone #</li>
+    </ul>
+
+<!--Lesson: Form, label, submit button, color picker input, checkbox, password-->
+<!--Lesson: Text box is <textarea name="name" rows="8" cols="80"></textarea> -->
+<!--Lesson: Submit button need to delete value ="" -->
+<!--Lesson: Submit button need to edit action ="" -->
+<!--Lesson: Submit button need to delete class ="" and add enctype for plain text
+so it doesn't show funny words -->
+<!--Lesson: start filling name ="" to add value to name attributes
+bc that's going to identify & classify the data that's inside each of those inputs so type yourName,
+yourMessage, yourEmail (which will only let users type email with @ sign, not random words)
+and in the email it will show up as yourName: Jen, yourEmail: 123@gmail.com and etc.-->
+    <form action="mailto:jennifersridr@outlook.com" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
